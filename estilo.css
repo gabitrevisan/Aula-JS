@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(219, 161, 180);
+    color: #F6F6F6;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    color: rgb(240, 237, 237)
+    
+}
+h3 {
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    color: rgb(240, 237, 237)
+    
+}

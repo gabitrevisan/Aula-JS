@@ -9,15 +9,47 @@
 <body>
     <h1 id="titulo">Exemlplo usando ID</h1>
     Nome: <input type="text" name="texto" id="idNome"/>
-    <button onclick="mudar()">Clique aqui!</button>
+    <button onclick="mudar()">Clique aqui!!!</button>
+    
     <hr>
+
     <h2>Classificação</h2>
     <p>Primeiro colocado: <span class="atleta"></span></p>
     <p>Segundo colocado: <span class="atleta"></span></p>
     <p>Terceiro colocado: <span class="atleta"></span></p>
     <p>Novo Classificado: <input type="text" id="novo"/></p>
-    <p>Posição: <input type="number" id="posição" min="1" max = "3"/></p>
+    <p>Posição: <input type="number" id="posicao" min="1" max = "3"/></p>
     <button onclick="jogo()">Resultado</button>
+
+    <hr>
+
+    <h2>Mostrar Dados</h2>
+    <ul>
+        <li>Segunda-feira</li>
+        <li>Terça-feira</li>
+        <li>Quarta-feira</li>
+        <li>Quinta-feira</li>
+        <li>Sexta-feira</li>
+    </ul>
+    <p>Escolha um dia: <input type = "number" id="numero" min="1" max = "5"/></p>
+    <button onclick="mostrar()">Mostrar</button>
+    <p>Dia escolhido: <span id="resultado"></span></p>
+
+    <hr>
+
+    <h2>Evento 01 - JavaScript</h2>
+    <button onclick="alert('Olá! Você clicou no botão.')">Clique neste botão</button>
+    <p></p>
+    <h2>Evento 02 - JavaScript</h2>
+    <button id="btnMsg">Acione este botão</button>
+    
+    <hr>
+
+    <h2>Evento Efeito</h2>
+    <button id = "btnMsg1">Pressione o botão</button>
+    <h2>Veja abaixo a transformação</h2>
+    <h3>Passe o mouse por cima do botão e note a mudança!</h3>
+    <button id = "btnMsg2">Aperte aqui</button>
 
 <script src="script.js"></script>
 </body>
